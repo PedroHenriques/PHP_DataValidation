@@ -1,0 +1,17 @@
+{
+	"date" : "The %field% provided isn't a valid date.",
+	"date_f" : "The date provided in the %field% field doesn't follow the format(s): %params[...]%.",
+	"email" : "The %field% provided is not valid.",
+	"gr_eq_th" : "The value provided for the %field% field must be greater or equal than %params[0]%.",
+	"gr_th" : "The value provided for the %field% field must be greater than %params[0]%.",
+	"in" : "The value provided for the %field% field is not one of the valid values: %%...%%.",
+	"lw_eq_th" : "The value provided for the %field% field must be lower or equal than %params[0]%.",
+	"lw_th" : "The value provided for the %field% field must be lower than %params[0]%.",
+	"match" : "The %field% provided doesn't match %%0%%.",
+	"match_ci" : "The %field% provided doesn't match %%0%%, ignoring case sensitivity.",
+	"max_len" : "The length of the %field% provided is too large.",
+	"min_len" : "The length of the %field% provided is too short.",
+	"range" : "The value provided for the %field% field must be between %params[0]% and %params[1]%.",
+	"regex" : "The %field% provided doesn't match the pattern %params[0]%",
+	"required" : "The field %field% is required, yet none was given."
+}
