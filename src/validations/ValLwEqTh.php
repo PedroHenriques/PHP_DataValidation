@@ -1,7 +1,7 @@
 <?php
 /************************************************************
 *															*
-* PHP Data Validator v1.0.0									*
+* PHP Data Validator v1.0.1									*
 *															*
 * Copyright 2016, PedroHenriques 							*
 * http://www.pedrojhenriques.com 							*

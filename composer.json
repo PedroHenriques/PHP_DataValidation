@@ -22,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"php_datavalidator\\": "src/"
+			"DataValidator\\": "src/"
 		}
 	}
 }

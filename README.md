@@ -10,6 +10,20 @@ All the validations and error messages can be customized, even the default ones,
 
 ### Setup
 
+#### => Composer:
+
+Add the following to your project's `composer.json` file:
+```
+{
+    "require": {
+        "pedrohenriques/data-validator": "1.*"
+    }
+}
+```  
+Replacing the version with your preference. 
+
+#### => Manual:
+
 1. Copy the `src` folder into your project.
 2. Reference the `DataValidator.php` file on the webpages you wish to use the Data Validator using, for example, `require_once("path/to/DataValidator.php")`.
 
