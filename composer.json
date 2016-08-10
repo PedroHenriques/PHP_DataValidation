@@ -1,0 +1,28 @@
+{
+    "name": "pedrohenriques/php_datavalidator",
+    "description": "Easy to use and highly customizable PHP data validator.",
+    "type": "library",
+	"keywords": ["validator", "validation"],
+	"homepage": "https://github.com/PedroHenriques/PHP_DataValidator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Henriques",
+            "email": "pedro@pedrojhenriques.com",
+			"homepage": "http://pedrojhenriques.com",
+			"role": "Developer"
+        }
+    ],
+	"support": {
+	   "email": "pedro@pedrojhenriques.com"
+   },
+    "minimum-stability": "stable",
+    "require": {
+		"php": ""
+	},
+	"autoload": {
+		"psr-4": {
+			"php_datavalidator\\": "src/"
+		}
+	}
+}
