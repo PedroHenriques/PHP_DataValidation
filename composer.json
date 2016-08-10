@@ -1,5 +1,5 @@
 {
-    "name": "pedrohenriques/php_datavalidator",
+    "name": "pedrohenriques/data-validator",
     "description": "Easy to use and highly customizable PHP data validator.",
     "type": "library",
 	"keywords": ["validator", "validation"],
