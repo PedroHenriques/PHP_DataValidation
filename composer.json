@@ -18,7 +18,7 @@
    },
     "minimum-stability": "stable",
     "require": {
-		"php": ""
+		"php": ">=5.4"
 	},
 	"autoload": {
 		"psr-4": {
