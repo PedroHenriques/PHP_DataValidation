@@ -1,7 +1,7 @@
 <?php
 /************************************************************
 *															*
-* PHP Data Validator v1.0.1									*
+* PHP Data Validator v1.0.2									*
 *															*
 * Copyright 2016, PedroHenriques 							*
 * http://www.pedrojhenriques.com 							*
@@ -199,16 +199,10 @@ class DataValidator implements iValidator {
 					// store the error for this failed validation
 					$this->errors->setError($field, $check_type, $input, $validation_params);
 
-					// TODO: remove this debug info
-					print_r("<p style='color:red;'>validation for {$field} field and {$check} check FAILED!</p>");
-
 					// if "1 fail only" is active, move on to the next field
 					if ($this->single_fail) {
 						continue(2);
 					}
-				}else{
-					// TODO: remove this debug info
-					print_r("<p style='color:green;'>validation for {$field} field and {$check} check passed!</p>");
 				}
 			}
 		}
